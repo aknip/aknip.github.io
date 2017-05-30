@@ -1,2 +1,0 @@
-# aknip.github.io
-Homepage
