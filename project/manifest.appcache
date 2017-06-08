@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# 5b7dddcde42aea8d5e94
+# c2000f70977187e67c6e
 
 static/js/vendor.916d4151ffb954a5e03c.js
 static/js/app.9f73e15f05a3871f735c.js
@@ -14,8 +14,8 @@ NETWORK:
 *
 
 FALLBACK:
-/ index.html
-. index.html
+/ /index.html
+. /index.html
 
 SETTINGS:
 prefer-online
