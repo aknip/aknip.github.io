@@ -1,0 +1,17 @@
+CACHE MANIFEST
+# 5b7dddcde42aea8d5e94
+
+static/js/vendor.916d4151ffb954a5e03c.js
+static/js/app.9f73e15f05a3871f735c.js
+static/js/manifest.3f9c336724ffb497682e.js
+static/css/app.5c941edb1c197fbf971a726c1b6b157e.css
+index.html
+static/gecko1.png
+static/js/appcache-nanny.js
+appcache-loader.html
+
+NETWORK:
+*
+
+SETTINGS:
+prefer-online
