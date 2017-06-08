@@ -13,5 +13,8 @@ appcache-loader.html
 NETWORK:
 *
 
+FALLBACK:
+. index.html
+
 SETTINGS:
 prefer-online
