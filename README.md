@@ -14,4 +14,6 @@ https://designmodo.com/slides/first-steps/
 
 https://designmodo.com/slides/app/
 
-edit
+Notes:
+
+Fullscreen Video: https://www.w3schools.com/howto/howto_css_fullscreen_video.asp
