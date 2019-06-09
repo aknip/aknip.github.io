@@ -36,7 +36,11 @@
   opacity: 0.25;
 }
 
-.showlink a {
+.linklist {
+  line-height: 20px;
+}
+
+.linklist a {
   text-decoration: underline;
   text-decoration-color: #bbb;
   /* border-bottom: 1px solid #bbb; */
@@ -44,7 +48,6 @@
 
 .linkdate {
 	font-size: 12px;
-	line-height: 8px!important;
 }
 
 /* bullet point lists */
@@ -67,7 +70,7 @@
 
 /* hide logo in menu bar on first slide / home page */
 .firstSlide .logo-menu {
-  display: none!important
+  /* display: none!important */
 }
 
 /* main menu: smaller, not bold */
