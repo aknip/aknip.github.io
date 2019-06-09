@@ -17,3 +17,6 @@ https://designmodo.com/slides/app/
 Notes:
 
 Fullscreen Video: https://www.w3schools.com/howto/howto_css_fullscreen_video.asp
+
+Validate RSS: http://www.feedvalidator.org
+

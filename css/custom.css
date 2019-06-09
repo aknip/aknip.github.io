@@ -1,3 +1,36 @@
+/* font */
+@font-face {
+  font-family: "hnt";
+  font-style: normal;
+  font-weight: 200;
+  src:url(./../assets/font/hnt/hnt-light.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "hnt";
+  font-style: normal;
+  font-weight: 400;
+  src:url(./../assets/font/hnt/hnt-regular.otf) format("opentype");
+}
+@font-face {
+  font-family: "hnt";
+  font-style: normal;
+  font-weight: 500;
+  src:url(./../assets/font/hnt/hnt-bold.otf) format("opentype");
+}
+@font-face {
+  font-family: "hnt";
+  font-style: normal;
+  font-weight: 700;
+  src:url(./../assets/font/hnt/hnt-black.otf) format("opentype");
+}
+
+.slides, .slides p {
+  font-family: 'hnt', sans-serif;
+  font-weight: 200;
+}
+
+
 /* bullet point lists */
 .bullet li {
 	margin-left: 20px; 
@@ -28,4 +61,14 @@
   bottom: 0;
   min-width: 100%; 
   min-height: 100%;
+}
+
+.homepage-background {
+  background-image:url(./../assets/img/homepage-mobile.png)
+}
+
+@media (min-width: 800px) {
+  .homepage-background {
+    background-image:url(./../assets/img/homepage.png)
+  }
 }
