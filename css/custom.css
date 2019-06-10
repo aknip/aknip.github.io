@@ -68,10 +68,6 @@
   margin-bottom: 2px;
 }
 
-/* hide logo in menu bar on first slide / home page */
-.firstSlide .logo-menu {
-  /* display: none!important */
-}
 
 /* main menu: smaller, not bold */
 .menu li a{
