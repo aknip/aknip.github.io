@@ -12,7 +12,7 @@
   <description>fak.plus is about questions and answers ...my personal FAQ about markets, marketing and machines</description>
   <dc:language>en-us</dc:language>
 <dc:creator>test@text.com</dc:creator>
-<dc:date>2019-11-24T12:28:04+01:00</dc:date>
+<dc:date>2019-11-25T00:28:04+01:00</dc:date>
   
   <sy:updatePeriod>hourly</sy:updatePeriod>
 <sy:updateFrequency>1</sy:updateFrequency>
@@ -21,6 +21,8 @@
     <title>Can an iPad replace a business notebook in 2019?</title>
     <link>https://fak.plus/#blog</link>
     <description>Here some description text</description>
+    <dc:creator>Peter Mustermann</dc:creator>
+<dc:date>2019-11-25T09:06:14+01:00</dc:date>
   </item>
 </channel>
 
