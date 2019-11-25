@@ -2,22 +2,17 @@
 <rss version="2.0">
 
 <channel>
-  <title>W3Schools Home Page</title>
-  <link>https://www.w3schools.com</link>
-  <description>Free web building tutorials</description>
-  <lastBuildDate>Sun, 09 Jun 2019 11:59:30 +0000</lastBuildDate>
+  <title>fak+</title>
+  <link>https://fak.plus/</link>
+  <description>fak.plus is about questions and answers ...my personal FAQ about markets, marketing and machines</description>
+  <lastBuildDate>Mon, 25 Nov 2019 00:00:00 +0000</lastBuildDate>
   <language>en-US</language>
   <sy:updatePeriod>hourly</sy:updatePeriod>
   <sy:updateFrequency>1</sy:updateFrequency>
   <item>
-    <title>RSS Tutorial</title>
-    <link>https://www.w3schools.com/xml/xml_rss.asp</link>
-    <description>New RSS tutorial on W3Schools</description>
-  </item>
-  <item>
-    <title>XML Tutorial</title>
-    <link>https://www.w3schools.com/xml</link>
-    <description>New XML tutorial on W3Schools</description>
+    <title>Can an iPad replace a business notebook in 2019?</title>
+    <link>https://fak.plus/#blog</link>
+    <description>Here some description text</description>
   </item>
 </channel>
 
