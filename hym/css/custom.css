@@ -1,6 +1,7 @@
 
 .panel.black {
-    background-color: rgba(2, 18, 29, 0.8)!important;
+    /*background-color: rgba(2, 18, 29, 0.8)!important;*/
+    background-color: rgb(53, 63, 70)!important;
 }
 
 .warning-bar, .warning-bar-content {
