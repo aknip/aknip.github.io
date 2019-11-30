@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <base href="./">
     <title>index</title>
     <meta property="og:title" content="index" />
     <meta name="twitter:title" content="index" />
@@ -12,9 +11,32 @@
 
     <!-- Fix flash of unstyled content  -->
     <style>html:not(.page-loaded) svg, html:not(.page-loaded) nav, html:not(.page-loaded) img, html:not(.page-loaded) .dropdown, html:not(.page-loaded) .sidebar{display:none;}</style>
+
+    <!-- Compressed Styles -->
+    <link href="css/slides.min.css?501341" rel="stylesheet" type="text/css">
+
+    
+    <!-- Fonts and Material Icons -->
+    <!-- Waiting for Google to add Inter to the fonts.google.com: https://github.com/google/fonts/issues/1455 -->
+    <link rel="stylesheet" as="font" href="https://fonts.googleapis.com/css?family=Material+Icons"/>
+    <style>
+        @import url('https://rsms.me/inter/inter.css');
+        .slides { font-family: 'Inter', sans-serif; }
+        @supports (font-variation-settings: normal) {
+          .slides { font-family: 'Inter var', sans-serif; }
+        }
+    </style>
+    <link href="css/swiper.min.css" rel="stylesheet" type="text/css">
+    <link href="css/custom.css" rel="stylesheet" type="text/css">
+    <!-- jQuery 3.4.1 -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- Compressed Scripts -->
+    <script src="js/slides.min.js?501341" type="text/javascript"></script>
+    <script src="js/swiper.min.js" type="text/javascript"></script> 
  
 </head>
-<body class="slides animated noPreload">
+<body class="slides animated  fast smooth">
 <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
   
   <symbol id="logo" viewBox="0 0 106 31"><title>Slides Framework</title><path d="M17.413 14.04c-.56-5.84-5.6-7-8.52-7-4.6 0-8.6 2.92-8.6 7.52 0 3 2.4 4.88 5.28 5.8 4.24 1.64 5.88 1.84 5.88 3.36 0 1.08-1.2 1.72-2.32 1.72-.28 0-2.24 0-2.52-2.04h-6.6c.6 5.84 5.68 7.36 9.04 7.36 4.92 0 9.04-2.88 9.04-7.76 0-4.8-4-5.92-7.76-6.96-1.76-.52-3.4-1.2-3.4-2.2 0-.6.48-1.48 1.88-1.48 1.96 0 2.04 1.2 2.08 1.68h6.52zm2.222 15.96h6.64v-29.6h-6.64v29.6zm9.662-24.56h6.64v-5.04h-6.64v5.04zm0 24.56h6.64v-22.2h-6.64v22.2zm32.782-29.6h-6.64v9.28c-.72-.72-2.6-2.64-6.52-2.64-5.64 0-11 4.28-11 11.8 0 6.68 4.4 11.88 11.12 11.88 4.48 0 6.08-2.2 6.72-3.12v2.4h6.32v-29.6zm-17.52 18.4c0-2.56 1.8-5.56 5.64-5.56 1.56 0 2.96.56 3.96 1.56 1 .96 1.64 2.32 1.64 3.92.08 1.64-.52 3.08-1.56 4.12s-2.52 1.68-4.12 1.68c-3.12 0-5.56-2.28-5.56-5.68v-.04zm42.502 2.4c.52-4.08-.32-7.64-3.12-10.64-2.08-2.2-5-3.52-8.4-3.52-6.76 0-11.64 5.72-11.64 11.92 0 6.6 5.4 11.76 11.76 11.76 2.28 0 4.48-.68 6.32-2 1.88-1.28 3.44-3.2 4.52-5.68h-6.8c-.8 1.16-1.92 2.08-4.04 2.08-2.6 0-4.84-1.56-5.12-3.92h16.52zm-16.44-5.04c.16-1.04 1.52-3.52 4.96-3.52s4.8 2.48 4.96 3.52h-9.92zm34.502-2.12c-.56-5.84-5.6-7-8.52-7-4.6 0-8.6 2.92-8.6 7.52 0 3 2.4 4.88 5.28 5.8 4.24 1.64 5.88 1.84 5.88 3.36 0 1.08-1.2 1.72-2.32 1.72-.28 0-2.24 0-2.52-2.04h-6.6c.6 5.84 5.68 7.36 9.04 7.36 4.92 0 9.04-2.88 9.04-7.76 0-4.8-4-5.92-7.76-6.96-1.76-.52-3.4-1.2-3.4-2.2 0-.6.48-1.48 1.88-1.48 1.96 0 2.04 1.2 2.08 1.68h6.52z"/></symbol>
@@ -143,27 +165,26 @@
 
 
 <!-- Slide 7 (#60) -->
-<section class="slide fade-6 whiteSlide">
+<section class="slide fade-6 whiteSlide" data-name="home1">
   <div class="content">
     <div class="container">
       <div class="wrap noSpaces">
-
         <div class="fix-12-12">
           <ul class="flex" style="margin-top: -50px">
-            <li class="col-12-12 left ">
-              <div class="left ae-1 fromLeft"> <img src="assets/img/hym-home3.jpg" /></div>
+            <li class="col-12-12">
+              <div class="left ae-1 fromTop"> <img src="assets/img/hym-home3.jpg" /></div>
             </li>
           </ul>
           <ul class="flex" style="margin-top: -60px; padding: 0px calc(8% + 0px);">
             <li class="col-5-12 left" >
-              <h1 class="margin-bottom-2 ae-2 fromLeft text-white">Willkommen!</h1>
-              <p class="ae-3 fromLeft">
+              <h1 class="margin-bottom-2 ae-2 fromTop text-white">Willkommen!</h1>
+              <p class="ae-3 fromTop">
                 <span class="opacity-8"><i class="material-icons" style="color:#999; display: inline-block; vertical-align: -4px;">exit_to_app</i> Fahrleistung: 13.457 km <br>
                   <i class="material-icons" style="color:#999; display: inline-block; vertical-align: -4px;">exit_to_app</i> Nächste Wartung: 17.12.2019
                 </span>
               </p>
               <div class="center">
-              <ul class="tabs controller uppercase bold ae-4 fromCenter" style="display: flex; flex-wrap: nowrap;" data-slider-id="60">
+              <ul class="tabs controller uppercase bold ae-4 fromTop" style="display: flex; flex-wrap: nowrap;" data-slider-id="60">
                 <li class="selected" style="width: 100px; text-align: center;">ABC</li>
                 <li style="width: 100px; text-align: center;">DEF</li>
                 <li style="width: 100px; text-align: center;">EFG</li>
@@ -199,6 +220,55 @@
   </div>
   <!-- <div class="background" style="background-image:url(assets/img/hym-home.jpg)"></div> -->
 </section>
+
+
+
+<!-- Slide 7 (#60) -->
+<section class="slide fade-6 whiteSlide" data-name="home2">
+  <div class="content">
+    <div class="container">
+      <div class=" wrap left top noSpaces" style="padding-top: 70px">
+
+        <div class="fix-12-12">
+          <ul class="flex">
+            <li class="col-phone-1-2 col-6-12">Col 1</li>
+            <li class="col-phone-1-2 col-6-12">Col 2</li>
+          </ul>
+          <ul class="flex" style="padding: 0px calc(8% + 15px);">
+            <li class="col-phone-1-2 col-6-12">Col 1</li>
+            <li class="col-phone-1-2 col-6-12">Col 2</li>
+          </ul>
+        </div>    
+
+        <!-- FORM START-->
+        <div class="form-55 fix-12-12" >
+          <div class="pad padding-top-2 shadow left selected ae-3" style="padding: 0px calc(8% + 15px);">
+            <form id="order-form" class="slides-form wide" data-ajax-form="true">
+              <ul class="flex noSpaces">
+                <li class="col-phone-1-2 col-6-12 form-55-input-1">
+                  <div class="label ae-5"><label class="left opacity-5" for="name55">Your name</label></div>
+                  <input class="rounded wide ae-6" id="name55" type="name" name="name" placeholder="Name" required>
+                </li>
+                <li class="col-phone-1-2 col-6-12 form-55-input-2">
+                  <div class="label ae-5"><label class="left opacity-5" for="email55">Email address</label></div>
+                  <input class="rounded wide ae-6" id="email55" type="email" name="email" placeholder="Email" required>
+                </li>
+              </ul>
+              <div class="label ae-8"><label class="opacity-5" for="message55">Message</label></div>
+              <textarea class="rounded left wide ae-9" id="message55" type="text" name="message" placeholder="Message" required></textarea>
+              <button type="submit" class="button wide blue rounded ae-10 cropBottom margin-top-2" data-success-text="Done!" data-success-class="message-sent" name="button">Send message</button>
+            </form>
+          </div>
+        </div>
+        <!-- FORM END-->
+
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
 
 
@@ -774,27 +844,6 @@
   </ul>
 </div>
 
-    <!-- Compressed Styles -->
-    <link href="css/slides.min.css?501341" rel="stylesheet" type="text/css">
-
     
-    <!-- Fonts and Material Icons -->
-    <!-- Waiting for Google to add Inter to the fonts.google.com: https://github.com/google/fonts/issues/1455 -->
-    <link rel="stylesheet" as="font" href="https://fonts.googleapis.com/css?family=Material+Icons"/>
-    <style>
-        @import url('https://rsms.me/inter/inter.css');
-        .slides { font-family: 'Inter', sans-serif; }
-        @supports (font-variation-settings: normal) {
-          .slides { font-family: 'Inter var', sans-serif; }
-        }
-    </style>
-    <link href="css/swiper.min.css" rel="stylesheet" type="text/css">
-    <link href="css/custom.css" rel="stylesheet" type="text/css">
-    <!-- jQuery 3.4.1 -->
-    <script src="js/jquery.min.js"></script>
-
-    <!-- Compressed Scripts -->
-    <script src="js/slides.min.js?501341" type="text/javascript"></script>
-    <script src="js/swiper.min.js" type="text/javascript"></script> 
 </body>
 </html>
