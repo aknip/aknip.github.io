@@ -57,6 +57,13 @@
   background-color: white!important;
 }
 
+
+/* support for mobile 1/4 grid */
+@media (max-width: 435px) {
+  .flex>.col-phone-1-4 {
+    width: 25%!important;
+}
+
 /* iPad Vertical */
 @media (min-width: 768px) {
   .panel.panel-left.panel-cover {
