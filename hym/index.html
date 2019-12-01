@@ -171,37 +171,38 @@
 </nav>
 
 
-
-<!-- Slide 7 (#60) -->
+<!-- HOME (#60) -->
 <section class="slide fade-6 whiteSlide" data-name="home1">
   <div class="content">
     <div class="container">
-      <div class="wrap noSpaces">
+      <div class=" wrap left top noSpaces" style="padding-top: 70px">
+
         <div class="fix-12-12">
-          <ul class="flex" style="margin-top: 0px">
-            <li class="col-12-12">
+          <ul class="flex">
+            <li class="col-phone-1-1 col-12-12">
               <div class="left ae-1 fromTop"> <img src="assets/img/hym-home3.jpg" /></div>
             </li>
           </ul>
-          <ul class="flex" style="margin-top: -60px; padding: 0px calc(8% + 0px);">
-            <li class="col-5-12 left" >
+          <ul class="flex" style="margin-top: -50px; padding: 0px calc(8% + 15px);">
+            <li class="col-phone-1-1 col-12-12">
               <h1 class="margin-bottom-2 ae-2 fromTop text-white">Willkommen!</h1>
               <p class="ae-3 fromTop">
                 <span class="opacity-8"><i class="material-icons" style="color:#999; display: inline-block; vertical-align: -4px;">exit_to_app</i> Fahrleistung: 13.457 km <br>
                   <i class="material-icons" style="color:#999; display: inline-block; vertical-align: -4px;">exit_to_app</i> Nächste Wartung: 17.12.2019
                 </span>
               </p>
-              <div class="center">
-              <ul class="tabs controller uppercase bold ae-4 fromTop" style="display: flex; flex-wrap: nowrap;" data-slider-id="60">
-                <li class="selected" style="width: 100px; text-align: center;">ABC</li>
-                <li style="width: 100px; text-align: center;">DEF</li>
-                <li style="width: 100px; text-align: center;">EFG</li>
+              
+              <ul class="tabs controller uppercase bold ae-4 fromTop" style="display: flex; flex-wrap: nowrap; max-width: 100%" data-slider-id="60">
+                <li class="selected" style="width: 50%; padding: 16px 4px; text-align: center;">Dashboard</li>
+                <li style="width: 50%; padding: 16px 4px; text-align: center;">Quickservice</li>
+              
               </ul>
-            </div>
+
             </li>
           </ul>
-          <ul class="flex" style="padding: 0px calc(8% + 15px);">
-            <li class="col-5-12 left ae-5 fromCenter ">
+
+          <ul class="flex margin-bottom-9 " style="padding: 0px calc(8% + 15px);">
+            <li class="col-8-12 left ae-5 fromCenter ">
               <ul class="slider animated margin-top-tablet-4 " data-slider-id="60">
                 <li class="selected fromCenter ">
                   <div class="popupTrigger" data-popup-id="60-1">
@@ -210,31 +211,49 @@
                     <img class="wide shadow rounded" src="assets/img/dashboard3a.gif" alt="Video Thumbnail"/>
                   </div>
                 </li>
-                <li class="fromCenter">
-                  <div class="popupTrigger " data-popup-id="60-2">
-                    <img class="wide shadow rounded" src="assets/img/gallery-60-2.jpg" alt="Video Thumbnail"/>
-                  </div>
-                </li>
+                
                 <li class="fromCenter">
                   <div class="popupTrigger videoThumbnail shadow rounded" data-popup-id="60-3">
-                    <img class="wide" src="assets/img/gallery-60-3.jpg" alt="Video Thumbnail"/>
+                    <!-- <img class="wide" src="assets/img/gallery-60-3.jpg" alt="Video Thumbnail"/> -->
+                    <!-- FORM START-->
+                    <div class="form-55 fix-8-12" >
+                      <div class="margin-top-5 pad padding-top-2 shadow left selected ae-3" style="padding: 0px calc(8% + 15px);">
+                        <form id="order-form" class="slides-form wide" data-ajax-form="true">
+                          <ul class="flex noSpaces">
+                            <li class="col-phone-1-2 col-6-12 form-55-input-1">
+                              <div class="label ae-5"><label class="left opacity-5" for="name55">Your name</label></div>
+                              <input class="rounded wide ae-6" id="name55" type="name" name="name" placeholder="Name" required>
+                            </li>
+                            <li class="col-phone-1-2 col-6-12 form-55-input-2">
+                              <div class="label ae-5"><label class="left opacity-5" for="email55">Email address</label></div>
+                              <input class="rounded wide ae-6" id="email55" type="email" name="email" placeholder="Email" required>
+                            </li>
+                          </ul>
+                          <div class="label ae-8"><label class="opacity-5" for="message55">Message</label></div>
+                          <textarea class="rounded left wide ae-9" id="message55" type="text" name="message" placeholder="Message" required></textarea>
+                          <button type="submit" class="button wide blue rounded ae-10 cropBottom margin-top-2" data-success-text="Done!" data-success-class="message-sent" name="button">Send message</button>
+                        </form>
+                      </div>
+                    </div>
+                    <!-- FORM END-->
+
                   </div>
                 </li>
               </ul>
             </li>
           </ul>
-        </div>
 
+        
       </div>
     </div>
   </div>
-  <!-- <div class="background" style="background-image:url(assets/img/hym-home.jpg)"></div> -->
 </section>
 
 
 
+
 <!-- HOME 2 (#60) -->
-<section class="slide fade-6 whiteSlide" data-name="home2">
+<section class="slide fade-6 whiteSlide" data-name="home3">
   <div class="content">
     <div class="container">
       <div class=" wrap left top noSpaces" style="padding-top: 70px">
