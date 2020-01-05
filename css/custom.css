@@ -48,6 +48,7 @@
 
 .linkdate {
 	font-size: 12px;
+  color: #c00000;
 }
 
 /* bullet point lists */
@@ -66,6 +67,31 @@
   font-size: 16px;
   line-height: 1.36;
   margin-bottom: 2px;
+}
+
+
+.animated .animate .ae-11:not(.done),
+.animated.animate .ae-11:not(.done) {
+  transition-delay: 1510ms;
+}
+
+.animated .animate .ae-12:not(.done),
+.animated.animate .ae-12:not(.done) {
+  transition-delay: 1660ms;
+}
+
+.animated.fast .animate .ae-9:not(.done),
+.animated.fast.animate .ae-9:not(.done),
+.animated.animate .ae-9.fast:not(.done),
+.animated.animate .fast .ae-9:not(.done) {
+  transition-delay: 1010ms;
+}
+
+.animated.fast .animate .ae-10:not(.done),
+.animated.fast.animate .ae-10:not(.done),
+.animated.animate .ae-10.fast:not(.done),
+.animated.animate .fast .ae-10:not(.done) {
+  transition-delay: 1110ms;
 }
 
 
